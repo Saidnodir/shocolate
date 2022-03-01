@@ -1,0 +1,1455 @@
+/*Обнуление*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+/*--------------------*/
+
+body {
+    background-color: rgba(0, 0, 0, 0.897);
+}
+
+.container {
+
+    width: 1400px;
+    box-sizing: border-box;
+
+
+
+    /*nav*/
+
+    nav {
+
+
+        .nav-box {
+            background-image: url(../img/Ellipse.png);
+            background-position-x: 20px;
+            height: 1100px;
+            background-position-x: 300px;
+            background-repeat: no-repeat;
+
+
+            h3 {
+                position: absolute;
+                width: 169px;
+                height: 42px;
+                left: 102px;
+                top: 77px;
+
+                font-family: Bonheur Royale;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 36px;
+                line-height: 42px;
+                color: #ffff;
+
+                /* identical to box height */
+            }
+
+
+            h2 {
+                position: absolute;
+                width: 592px;
+                height: 74px;
+                left: 102px;
+                top: 293px;
+
+                font-family: Bonheur Royale;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 64px;
+                line-height: 74px;
+                letter-spacing: 0.25em;
+                text-transform: capitalize;
+
+                color: #FFFFFF;
+
+            }
+
+            h1 {
+                position: absolute;
+                width: 889px;
+                height: 334px;
+                left: 102px;
+                top: 367px;
+
+                font-family: Bonheur Royale;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 288px;
+                line-height: 334px;
+                /* identical to box height */
+
+                letter-spacing: 0.055em;
+                text-transform: capitalize;
+
+                color: #F9E0D9;
+                z-index: 2;
+            }
+
+
+            .shop {
+                padding-left: 45px;
+                padding-top: 20px;
+                position: absolute;
+                width: 190px;
+                height: 76px;
+                left: 209px;
+                top: 750px;
+
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 24px;
+                line-height: 36px;
+
+
+                text-transform: capitalize;
+
+                color: #FFFFFF;
+
+                background: linear-gradient(90deg, #E2603B 4.22%, #89393B 100%);
+                box-shadow: inset 21px 13px 12px #89393B;
+                border-radius: 0px 80px;
+
+            }
+
+            .image-2 {
+                position: absolute;
+                width: 1077px;
+                height: 1101px;
+                left: 652px;
+                top: 0px;
+
+                background: url(../img/image.png);
+                border-radius: 30px;
+
+                .nav-2 {
+                    display: flex;
+                    position: absolute;
+                    width: 900px;
+                    height: 42px;
+                    left: 70px;
+                    top: 77px;
+
+                    ul {
+                        width: 950px;
+                        justify-content: space-between;
+                        display: flex;
+
+                        li {
+                            width: 128px;
+                            height: 42px;
+                            left: 870px;
+                            top: 77px;
+
+
+
+                            a {
+                                font-family: Bonheur Royale;
+                                font-style: normal;
+                                font-weight: normal;
+                                font-size: 36px;
+                                line-height: 42px;
+                                /* identical to box height */
+
+                                text-transform: capitalize;
+
+                                color: #FFFFFF;
+                            }
+
+                            a:focus,
+                            :hover {
+                                color: #E2603B;
+
+                            }
+
+                        }
+
+
+
+
+
+                    }
+
+
+                    li:nth-child(6) {
+                        margin-left: 60px;
+                        margin-top: 10px;
+                        cursor: pointer;
+                    }
+                }
+
+                .scrol {
+                    position: absolute;
+                    width: 37px;
+                    height: 234px;
+                    left: 877px;
+                    top: 433px;
+                }
+            }
+
+
+
+
+        }
+    }
+
+    /*sec-1*/
+
+    .section-1 {
+        display: flex;
+
+        margin-top: 180px;
+        background-image: url(../img/Ellipse.png);
+        background-position-x: -15px;
+        background-position-y: -95px;
+        background-repeat: no-repeat;
+
+
+
+        img {
+            width: 808px;
+            height: 808px;
+            margin-bottom: 350px;
+        }
+
+        div {
+            p {
+                position: absolute;
+                width: 138px;
+                height: 108px;
+                left: 965px;
+                top: 1366px;
+
+                font-family: Bonheur Royale;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 48px;
+                line-height: 108px;
+                /* identical to box height */
+
+                letter-spacing: 0.055em;
+                text-transform: capitalize;
+
+                color: #FFFFFF;
+            }
+
+            h1 {
+                position: absolute;
+                width: 676px;
+                height: 167px;
+                left: 948px;
+                top: 1474px;
+
+                font-family: Bonheur Royale;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 144px;
+                line-height: 167px;
+                /* identical to box height */
+
+                text-transform: capitalize;
+
+                color: #FFFFFF;
+            }
+
+            span {
+                position: absolute;
+                width: 652px;
+                height: 168px;
+                left: 965px;
+                top: 1663px;
+
+                font-family: Bonheur Royale;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 36px;
+                line-height: 42px;
+                letter-spacing: 0.055em;
+                text-transform: capitalize;
+
+                color: #FFFFFF;
+
+            }
+
+            a {
+                position: absolute;
+                width: 139px;
+                height: 36px;
+                left: 1024px;
+                top: 1914px;
+
+                font-family: Poppins;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 24px;
+                line-height: 36px;
+                /* identical to box height */
+
+                text-transform: capitalize;
+
+                color: #FFFFFF;
+                background: linear-gradient(90deg, #E2603B 4.22%, #89393B 100%);
+                box-shadow: inset 21px 13px 12px #89393B;
+                border-radius: 0px 80px;
+                width: 270px;
+                height: 90px;
+                padding-top: 30px;
+                padding-left: 50px;
+            }
+        }
+    }
+
+
+    /*sec-2*/
+
+    .sec-2 {
+        width: 1400px;
+        height: 1000px;
+        background-image: url(../img/Ellipse.png);
+        background-repeat: no-repeat;
+        background-position-x: 175px;
+        background-position-y: -30px;
+
+
+
+        .list-1 {
+
+            position: absolute;
+
+            left: 100px;
+            top: 2528px;
+
+
+            li {
+
+                margin-bottom: 100px;
+
+                p {
+                    width: 300px;
+                    height: 56px;
+                    left: 100px;
+                    top: 2528px;
+
+                    font-family: Bonheur Royale;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 48px;
+                    line-height: 56px;
+                    /* identical to box height */
+
+                    letter-spacing: 0.13em;
+                    text-transform: capitalize;
+
+                    color: #FFFFFF;
+                }
+
+                span {
+                    width: 56px;
+                    height: 28px;
+                    left: 101px;
+                    top: 2584px;
+
+                    font-family: Bonheur Royale;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 24px;
+                    line-height: 28px;
+                    /* identical to box height */
+
+                    text-transform: capitalize;
+
+                    color: #FFFFFF;
+
+                }
+            }
+
+        }
+
+        img {
+            position: absolute;
+            width: 639px;
+            height: 639px;
+            left: 471px;
+            top: 2615px;
+
+
+            border: 1px solid #FFFFFF;
+            box-sizing: border-box;
+            border-radius: 30px;
+        }
+
+        .list-2 {
+
+            position: absolute;
+
+            left: 1212px;
+            top: 2476px;
+
+            li {
+                margin-bottom: 82px;
+
+                p {
+                    width: 51px;
+                    height: 74px;
+                    left: 1212px;
+                    top: 2456px;
+
+                    font-family: Bonheur Royale;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 64px;
+                    line-height: 74px;
+                    text-transform: capitalize;
+
+                    color: #FFFFFF;
+                }
+
+                span {
+                    width: 363px;
+                    height: 140px;
+                    left: 1214px;
+                    top: 2745px;
+
+                    font-family: Bonheur Royale;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 24px;
+                    line-height: 28px;
+                    text-transform: capitalize;
+
+                    color: #FFFFFF;
+                }
+
+            }
+        }
+    }
+
+    /*sec-3*/
+
+    .sec-3 {
+        background-image: url(../img/image8.png);
+        background-repeat: no-repeat;
+        width: 1727px;
+        height: 1152px;
+        left: 1px;
+        top: 3973px;
+
+
+        form {
+
+
+            input {
+                padding: 50px;
+
+                position: absolute;
+                z-index: 3;
+                width: 841px;
+                height: 128px;
+                left: 232px;
+                top: 3952px;
+
+
+                border: 1px solid #FFFFFF;
+                box-sizing: border-box;
+                backdrop-filter: blur(20px);
+                /* Note: backdrop-filter has minimal browser support */
+
+                border-radius: 80px 0px 0px 80px;
+                background-image: url(../img/Group17.png);
+                background-repeat: no-repeat;
+                transition: 0.3s;
+            }
+
+            button {
+                position: absolute;
+                width: 374px;
+                height: 155px;
+                left: 1123px;
+                top: 3942px;
+
+                background: #E2603B;
+                border-radius: 0px 80px 80px 0px;
+                font-family: Bonheur Royale;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 48px;
+                line-height: 56px;
+                /* identical to box height */
+
+                text-transform: capitalize;
+
+                color: #FFFFFF;
+            }
+
+            input:focus {
+                background: linear-gradient(90deg, rgba(197, 196, 196, 0.34) 0%, rgba(196, 196, 196, 0.23) 97.21%);
+                box-shadow: inset 0 0 0 1px black, 0 0 3px 5px rgba(51, 10, 231, 0.788);
+                ;
+            }
+        }
+    }
+
+    /*sec-4*/
+
+    .sec-4 {
+        position: absolute;
+        width: 1700px;
+        height: 3115px;
+        background-image: url(../img/Ellipse.png);
+        background-repeat: no-repeat;
+        background-position-x: 230px;
+        background-position-y: 500px;
+
+        h2 {
+            position: absolute;
+            width: 392px;
+            height: 81px;
+            left: 100px;
+            top: 360px;
+
+            font-family: Bonheur Royale;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 46px;
+            line-height: 81px;
+            /* identical to box height */
+
+            text-transform: capitalize;
+
+            color: #FFFFFF;
+
+        }
+
+        h1 {
+            position: absolute;
+            width: 422px;
+            height: 167px;
+            left: 100px;
+            top: 443px;
+
+            font-family: Bonheur Royale;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 144px;
+            line-height: 167px;
+            /* identical to box height */
+
+            text-transform: capitalize;
+
+            color: #FFFFFF;
+        }
+
+        div {
+            position: absolute;
+
+            left: 14px;
+            top: 730px;
+            display: flex;
+            justify-content: space-evenly;
+
+            img {
+                margin-right: 55px;
+            }
+
+        }
+
+        img:nth-child(1) {
+            width: 486px;
+            height: 728px;
+
+        }
+
+        img:nth-child(2) {
+            width: 618px;
+            height: 927px;
+
+        }
+
+        img:nth-child(3) {
+            width: 510px;
+            height: 728px;
+
+        }
+    }
+
+    /*sec-5*/
+
+    .sec-5 {
+
+        position: absolute;
+
+        top: 6648px;
+
+
+
+
+        h1 {
+            display: flex;
+
+            position: absolute;
+            width: 584px;
+            height: 167px;
+            left: 117px;
+
+
+            font-family: Bonheur Royale;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 144px;
+            line-height: 167px;
+            /* identical to box height */
+
+            text-transform: capitalize;
+
+            color: #FFFFFF;
+
+            p {
+                position: absolute;
+                width: 107px;
+                height: 104px;
+                left: 1334px;
+
+
+
+                font-family: Bonheur Royale;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 64px;
+                line-height: 74px;
+                text-transform: capitalize;
+
+
+                a {
+                    color: #FFFFFF;
+                }
+            }
+        }
+
+        div {
+            position: absolute;
+            top: 100px;
+
+
+
+
+
+            .buy-1 {
+                background-image: url(../img/Ellipse.png);
+                width: 1100px;
+                height: 1000px;
+                background-position-y: -100px;
+                background-size: contain;
+
+                img {
+                    width: 697px;
+                    height: 667px;
+
+                }
+
+                p {
+                    margin-top: 30px;
+                    margin-left: 100px;
+                    width: 239px;
+                    height: 56px;
+                    left: 100px;
+                    top: 7855px;
+
+                    font-family: Bonheur Royale;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 48px;
+                    line-height: 56px;
+                    /* identical to box height */
+
+                    text-transform: capitalize;
+
+                    color: #FFFFFF;
+
+                    span {
+                        display: flex;
+                        width: 127px;
+                        height: 56px;
+                        left: 100px;
+
+
+                        font-family: Bonheur Royale;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 48px;
+                        line-height: 56px;
+                        /* identical to box height */
+
+                        text-transform: capitalize;
+
+                        color: #FFFFFF;
+
+                        code {
+                            text-decoration: line-through;
+                            margin-left: 13px;
+                            margin-top: 15px;
+                            width: 65px;
+                            height: 28px;
+                            left: 240px;
+                            top: 7925px;
+
+                            font-family: Bonheur Royale;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 24px;
+                            line-height: 28px;
+                            /* identical to box height */
+
+                            text-transform: capitalize;
+
+                            color: #7D7D7D;
+                        }
+                    }
+
+
+                }
+
+                a {
+                    width: 215px;
+                    height: 80px;
+                    position: absolute;
+                    top: 720px;
+                    left: 450px;
+
+
+                    font-family: Poppins;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 24px;
+                    line-height: 36px;
+                    /* identical to box height */
+
+                    text-transform: capitalize;
+
+                    color: #FFFFFF;
+
+
+
+                    background: linear-gradient(90deg, #E2963B 4.22%, #89393B 100%);
+                    border-radius: 0px 80px;
+                    padding-top: 20px;
+                    padding-left: 45px;
+
+                    border-radius: 0px 80px;
+
+
+                }
+            }
+
+            .buy-2 {
+                position: absolute;
+
+
+                left: 757px;
+
+                p {
+                    position: absolute;
+                    width: 233px;
+                    height: 56px;
+
+                    top: 730px;
+
+                    font-family: Bonheur Royale;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 48px;
+                    line-height: 56px;
+                    /* identical to box height */
+
+                    text-transform: capitalize;
+
+                    color: #FFFFFF;
+
+                    span {
+                        display: flex;
+                        width: 136px;
+                        height: 56px;
+
+
+                        font-family: Bonheur Royale;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 48px;
+                        line-height: 56px;
+
+                        text-transform: capitalize;
+
+                        color: #FFFFFF;
+
+                        code {
+                            margin-top: 15px;
+                            margin-left: 10px;
+                            width: 67px;
+                            height: 28px;
+                            text-decoration: line-through;
+                            font-family: Bonheur Royale;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 24px;
+                            line-height: 28px;
+
+                            text-transform: capitalize;
+
+                            color: #7D7D7D;
+                        }
+                    }
+                }
+
+                a {
+                    position: absolute;
+                    top: 730px;
+                    left: 600px;
+                    width: 102px;
+                    height: 36px;
+                    padding-top: 25px;
+                    padding-left: 50px;
+
+
+                    font-family: Poppins;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 24px;
+                    line-height: 36px;
+                    /* identical to box height */
+
+                    text-transform: capitalize;
+
+                    color: #FFFFFF;
+                    width: 217px;
+                    height: 89px;
+                    ;
+
+                    background: linear-gradient(90deg, #E2963B 4.22%, #89393B 100%);
+                    border-radius: 0px 80px;
+                }
+
+            }
+
+            .buy-3 {
+                background: opacity(0);
+                background-image: url(../img/Ellipse.png);
+                width: 1100px;
+                height: 1000px;
+                background-position-y: -200px;
+                background-position-x: 100px;
+                background-repeat: no-repeat;
+                position: absolute;
+
+                left: 18px;
+                top: 1102px;
+
+                p {
+                    position: absolute;
+                    width: 225px;
+                    height: 56px;
+                    left: 120px;
+                    top: 640px;
+
+                    font-family: Bonheur Royale;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 48px;
+                    line-height: 56px;
+                    /* identical to box height */
+
+                    text-transform: capitalize;
+
+                    color: #FFFFFF;
+
+                    span {
+                        display: flex;
+                        width: 122px;
+                        height: 56px;
+
+
+                        font-family: Bonheur Royale;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 48px;
+                        line-height: 56px;
+                        /* identical to box height */
+
+                        text-transform: capitalize;
+
+                        color: #FFFFFF;
+
+                        code {
+                            width: 67px;
+                            height: 28px;
+
+                            text-decoration: line-through;
+                            margin-top: 15px;
+                            margin-left: 10px;
+                            font-family: Bonheur Royale;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 24px;
+                            line-height: 28px;
+                            /* identical to box height */
+
+                            text-transform: capitalize;
+
+                            color: #7D7D7D;
+                        }
+                    }
+                }
+
+                a {
+                    position: absolute;
+                    width: 102px;
+                    height: 36px;
+                    left: 660px;
+                    top: 650px;
+                    padding-top: 25px;
+                    padding-left: 45px;
+
+                    font-family: Poppins;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 24px;
+                    line-height: 36px;
+
+
+                    text-transform: capitalize;
+
+                    color: #FFFFFF;
+                    width: 217px;
+                    height: 89px;
+
+
+                    background: linear-gradient(90deg, #E2963B 4.22%, #89393B 100%);
+                    border-radius: 0px 80px;
+                }
+            }
+
+            .buy-4 {
+                position: absolute;
+                width: 781px;
+                height: 500px;
+                left: 958px;
+                top: 1141px;
+
+                p {
+                    position: absolute;
+                    width: 239px;
+                    height: 56px;
+
+                    top: 580px;
+
+                    font-family: Bonheur Royale;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 48px;
+                    line-height: 56px;
+                    /* identical to box height */
+
+                    text-transform: capitalize;
+
+                    color: #FFFFFF;
+
+                    span {
+                        display: flex;
+                        width: 127px;
+                        height: 56px;
+                        left: 958px;
+                        top: 8797px;
+
+                        font-family: Bonheur Royale;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-size: 48px;
+                        line-height: 56px;
+                        /* identical to box height */
+
+                        text-transform: capitalize;
+
+                        color: #FFFFFF;
+
+                        code {
+                            text-decoration: line-through;
+                            margin-top: 15px;
+                            margin-left: 10px;
+                            width: 65px;
+                            height: 28px;
+                            left: 1098px;
+                            top: 8811px;
+
+                            font-family: Bonheur Royale;
+                            font-style: normal;
+                            font-weight: normal;
+                            font-size: 24px;
+                            line-height: 28px;
+                            /* identical to box height */
+
+                            text-transform: capitalize;
+
+                            color: #7D7D7D;
+                        }
+                    }
+
+
+                }
+
+                a {
+                    padding-top: 25px;
+                    padding-left: 50px;
+                    position: absolute;
+                    width: 102px;
+                    height: 36px;
+                    left: 400px;
+                    top: 600px;
+
+                    font-family: Poppins;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 24px;
+                    line-height: 36px;
+                    /* identical to box height */
+
+                    text-transform: capitalize;
+
+                    color: #FFFFFF;
+                    width: 217px;
+                    height: 89px;
+
+
+                    background: linear-gradient(90deg, #E2963B 4.22%, #89393B 100%);
+                    border-radius: 0px 80px;
+                }
+
+                a:hover {
+                    margin-right: 200px;
+                }
+            }
+
+
+        }
+    }
+
+    /*footer*/
+
+    hr {
+
+        position: absolute;
+        width: 1461px;
+        height: 0px;
+        left: 133px;
+        top: 9043px;
+
+        /* Gray / Medium */
+
+        border: 1px solid #5F5F5F;
+    }
+
+    footer {
+
+
+        display: flex;
+        position: absolute;
+        width: 192px;
+        height: 32px;
+        left: 229px;
+        top: 9161.43px;
+
+        .our-promis {
+            margin-right: 60px;
+
+
+
+            li {
+                margin-bottom: 35px;
+                width: 256px;
+
+                a {
+
+                    width: 256px;
+                    height: 24px;
+                    left: 229px;
+                    top: 9548.43px;
+                    font-family: Ubuntu;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 20px;
+                    line-height: 24px;
+                    color: #5F5F5F;
+                }
+
+
+
+            }
+
+            li:nth-child(1) {
+                a {
+                    width: 192px;
+                    height: 32px;
+                    left: 229px;
+                    top: 9361.43px;
+
+                    /* H2 */
+
+                    font-family: Ubuntu;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 30px;
+                    line-height: 32px;
+                    /* identical to box height, or 107% */
+
+                    text-align: center;
+
+                    color: #FFFFFF;
+                }
+
+            }
+        }
+
+        .help {
+            margin-right: 60px;
+
+            li {
+                margin-bottom: 35px;
+                width: 182px;
+                height: 24px;
+                left: 545px;
+                top: 9546.43px;
+
+                /* H4 */
+
+                font-family: Ubuntu;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 20px;
+                line-height: 24px;
+
+
+
+                a {
+                    color: #5F5F5F;
+                }
+            }
+
+            li:nth-child(1) {
+                a {
+                    width: 192px;
+                    height: 32px;
+                    left: 229px;
+                    top: 9361.43px;
+
+                    /* H2 */
+
+                    font-family: Ubuntu;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 30px;
+                    line-height: 32px;
+                    /* identical to box height, or 107% */
+
+                    text-align: center;
+
+                    color: #FFFFFF;
+                }
+
+            }
+        }
+
+        p {
+
+            width: 144px;
+            height: 32px;
+            left: 787px;
+            top: 9361.43px;
+
+            font-family: Ubuntu;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 30px;
+            line-height: 32px;
+
+            text-align: center;
+
+            color: #FFFFFF;
+
+            a {
+
+                margin-top: 60px;
+                display: flex;
+                justify-content: space-around;
+
+                img {
+                    width: 50px;
+                    transition: 1s;
+                }
+
+                img:hover {
+                    width: 100px;
+
+                }
+            }
+
+
+        }
+
+        .contact-us {
+            margin-left: 140px;
+
+            li {
+                margin-bottom: 35px;
+                width: 346px;
+                height: 24px;
+                left: 1079px;
+                top: 9658.43px;
+
+                /* H4 */
+
+                font-family: Ubuntu;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 20px;
+                line-height: 24px;
+                /* identical to box height, or 120% */
+
+
+
+                /* Gray / Medium */
+                a {
+                    color: #5F5F5F;
+
+
+                }
+            }
+
+            li:nth-child(1) {
+                a {
+                    width: 156px;
+                    height: 32px;
+                    left: 0px;
+                    top: 0px;
+
+                    font-size: 30px;
+                    line-height: 32px;
+
+
+                    color: #FFFFFF;
+                }
+
+            }
+
+            li:nth-child(5) {
+                a {
+                    width: 156px;
+                    height: 32px;
+                    left: 0px;
+                    top: 0px;
+
+                    font-size: 30px;
+                    line-height: 32px;
+
+
+                    color: #FFFFFF;
+                }
+            }
+
+            li {
+                form {
+                    padding: 20px 25px;
+                    width: 429px;
+                    height: 72px;
+                    left: 1079px;
+                    top: 9707.43px;
+
+                    background: #89393B;
+                    border-radius: 20px;
+
+                    input {
+                        font-family: Ubuntu;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 20px;
+                        line-height: 32px;
+                        /* identical to box height, or 107% */
+
+
+
+                        color: #fdfdff;
+                        margin-top: 7px;
+                        height: 25px;
+                        border: none;
+                        background-image: url(../img/Emaill.png);
+                        background-color: #89393B;
+                        background-repeat: no-repeat;
+                        transition: 0.3s;
+                    }
+
+                    input:focus {
+                        background: none;
+                    }
+
+                    button {
+                        position: absolute;
+                        left: 1130px;
+
+
+
+
+                        /* Button */
+
+                        font-family: Ubuntu;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 10px;
+                        line-height: 20px;
+                        /* identical to box height, or 200% */
+
+                        text-align: center;
+                        letter-spacing: 0.21em;
+                        text-transform: uppercase;
+
+                        color: #FFFFFF;
+                        width: 100px;
+                        height: 37px;
+
+
+                        background: #E2603B;
+                        border-radius: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media only screen and (max-width: 568px) {
+
+    body {
+
+
+        background: rgba(0, 0, 0, 0.911);
+
+    }
+
+    .container {
+        background: rgba(0, 0, 0, 0.918);
+
+
+
+    }
+
+    nav {
+
+
+        .nav-box {
+            width: 400px;
+
+            h3 {
+                
+                width: 9px;
+                height: 42px;
+                left: 2px;
+                top: 77px;
+
+                font-family: Bonheur Royale;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 36px;
+                line-height: 42px;
+                /* identical to box height */
+
+                text-transform: capitalize;
+                color: #ffff;
+            }
+
+        }
+    }
+
+}
